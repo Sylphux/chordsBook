@@ -1,6 +1,6 @@
 # About
 
-This is a simple web app allowing users to write, save and transpose chords for songs of their choices.
+This is a simple JS web app allowing users to write, save and transpose chords for songs of their choices.
 
 It is aimed for a phone use but can also be used on browser.
 
@@ -8,14 +8,15 @@ It is aimed for a phone use but can also be used on browser.
 
 ## What is in the app right now ?
 
- - Nothing
+ - Welcome screen
 
 ## What will be the added functionnalities 
 
-- Ability to write chords for songs
-- Ability to save chords to a local library
-- Ability to transpose
-- Ability to delete / modify chords
+- Write chords for songs
+- Save chords to a local library
+- Transpose
+- Delete / modify chords
 - A launchable metronome for the song
-- Ability to add lyrics
-- Ability to export saved chords in txt / json / html
+- Add lyrics
+- Export saved chords in txt / json / html
+- Quiz to learn the notes in a (custom) chord

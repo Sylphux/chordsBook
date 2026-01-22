@@ -8,12 +8,39 @@
 </head>
 <body>
     <content>
-        <div id="welcome_div" class="floating_alone round_angles">
-            <h1>Welcome to chordsBook</h1>
-            <p>An offline webapp to write, transpose and save your favourite chords.</p>
-            <p>If this is your first time here, start now !</p>
-            <button class="btn_round btn_primary" onclick="begin()">Begin!</button>
+
+        <!-- This is the welcome part -->
+        <div id="welcome_page">
+            <div id="first_time" class="floating_alone round_angles">
+                <h1>Welcome to chordsBook</h1>
+                <p>An offline webapp to write, transpose and save your favourite chords.</p>
+                <p>If this is your first time here, start now !</p>
+                <button class="btn_round btn_primary" onclick="toggleWelcome()">Begin!</button>
+            </div>
+
+            <div id="choose_activity" class="floating_alone round_angles">
+                <h1>Choose an activity</h1>
+                <h2>There are two activities available at the moment.</h2>
+                <ul class="flat_left_ul">
+                    <li><strong>Note quiz :</strong> Given one chord name, guess all the notes in the chord.</li><br>
+                    <li><strong>Chords book :</strong> Import chords for songs, save them and transpose them.</li>
+                </ul>
+                <div class="buttons_div">
+                    <a class="button_link" href="quiz.html">Note quiz</a>
+                    <a class="button_link" href="chords.html">Chords</a>
+                </div>
+
+            </div>
         </div>
+
+        <div id="quizz_page">
+
+
+        </div>
+
+
     </content>
 </body>
+<script src="utils.js"></script>
+<script src="index_script.js"></script>
 </html>
