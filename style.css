@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    background-color: var(--dark);
+    background-color: var(--soft);
     color: var(--cblack);
 }
 
@@ -35,7 +35,7 @@ content {
     align-content: center;
     background-color: var(--cwhite);
     border-left-style: solid;
-    border-color: var(--soft);
+    border-color: var(--dark);
 }
 
 .flat_left_ul {
@@ -50,17 +50,17 @@ content {
 .btn_round, .button_link {
     border-style: none;
     padding: 1rem;
-    border-radius: 2rem;
-    background-color: #f49cbb;
+    border-radius: 1rem;
+    background-color: var(--dark);
     font-size: 1rem;
     text-decoration: none;
-    color: black;
+    color: white;
     text-align: center;
 }
 
 .btn_round:hover, .button_link:hover {
     cursor: pointer;
-    background-color: #880D1E;
+    background-color: var(--soft);
     color: var(--cwhite);
 }
 
@@ -80,8 +80,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0px;
     padding-left: 1rem;
     border-left-style: solid ;
-    border-color: #880D1E;
-    border-radius: 2px;
+    border-color: var(--dark);
+    border-radius: 3px;
 }
 
 #first_time {
